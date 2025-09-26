@@ -3,7 +3,7 @@ class Solution:
     def nextPermutation(self, arr):
         # if len(arr) <= 1:
         #     return arr
-            
+              
         # turn_index = -1
         # for i in range(len(arr)-2, -1, -1):
         #     if arr[i] < arr[i+1]:
@@ -34,6 +34,7 @@ class Solution:
         n = len(arr)
         if n < 2:
             return arr
+            
             
         # Finding the turing index 
         turing_index = -1
